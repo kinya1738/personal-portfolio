@@ -5,7 +5,7 @@ img{
     
 }
 body{
-    background-color: aqua;
+    background-color: lightblue;
 }
 body {
     font-family: Arial, sans-serif;
@@ -17,18 +17,22 @@ body {
 header {
     background-color: #222;
     color: white;
-    padding: 20px;
+    padding: 0;
     text-align: center;
 }
 nav {
-    background: #444;
-    padding: 10px;
+    
+    padding: 10px 30px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    
 }
 nav a {
     color: white;
     margin: 0 15px;
     font-size: 18px;
+    letter-spacing: 10px;
 }
 nav a:hover {
     color: #f4f4f4;
@@ -40,6 +44,9 @@ section {
     margin: 20px auto;
     width: 80%;
     border-radius: 10px;
+    color: black;
+
+    
     
 }
 footer {
@@ -55,5 +62,4 @@ a {
 }
 a:hover {
     text-decoration: underline;
-
 }
