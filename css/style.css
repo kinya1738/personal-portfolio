@@ -1,7 +1,8 @@
 img{
-    height: 50vh;
+    height: 30vh;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
     
 }
 body{
@@ -45,3 +46,4 @@ section {
     width: 80%;
     border-radius: 10px;
     color: black;
+}
